@@ -1,4 +1,4 @@
-Goad: Analyze the data on transfers conversion to identify correlations and bottlenecks
+Goal: Analyze data on transfers conversion to identify correlations and bottlenecks
 
 
 import pandas as pd
