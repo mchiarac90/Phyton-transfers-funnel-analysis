@@ -11,7 +11,7 @@ uploaded = files.upload()
 import plotly.graph_objects as go
 import plotly.express as px
 
-df = pd.read_excel('wise_funnel_events_regional.xlsx')
+df = pd.read_excel('funnel_data_sample.xlsx')
 
 
 #count transfers reaching each funnel step
@@ -66,7 +66,7 @@ fig.update_layout(
 )
 
 fig.update_traces(textfont=dict(color="black", size=15, family="Arial",
-                                 weight="bold"))
+weight="bold"))
 
 
 
