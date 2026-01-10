@@ -103,7 +103,7 @@ plt.ylabel('Region, Experience')
 plt.tight_layout()
 plt.show()
 
-#no.users Andriod vs WEB users
+#no.users Andriod vs WEB 
 filtered_web = df[df['platform'] == 'Web']
 
 distinct_users_on_web = filtered_df['user_id'].nunique()
