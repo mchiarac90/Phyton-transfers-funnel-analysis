@@ -67,7 +67,7 @@ fig.update_traces(textfont=dict(color="black", size=15, family="Arial",
 
 
 
-
+#perc of transfers funded od created by region, experience and platform
 df['is_funded'] = np.where(df['event_name'] == 'Transfer Funded', 1, 0)
 df['is_created'] = np.where(df['event_name'] == 'Transfer Created', 1, 0)
 
@@ -101,13 +101,10 @@ plt.ylabel('Region, Experience')
 plt.tight_layout()
 plt.show()
 
-#Andriod vs WEB users
-df = pd.read_excel('wise_funnel_events_regional.xlsx')
-
+#no.users Andriod vs WEB users
 filtered_web = df[df['platform'] == 'Web']
 
 distinct_users_on_web = filtered_df['user_id'].nunique()
-
 
 filtered_android = df[df['platform'] == 'Android']
 
@@ -115,8 +112,3 @@ distinct_users_on_android = filtered_android['user_id'].nunique()
 
 print(distinct_users_on_web)
 print(distinct_users_on_android)
-
-import pandas as pd
-df = pd.read_excel('wise_funnel_events_regional.xlsx')
-print(df)
-df.head()
