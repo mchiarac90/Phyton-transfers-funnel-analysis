@@ -69,7 +69,7 @@ weight="bold"))
 
 
 
-#perc of transfers funded od created by region, experience and platform
+#perc of transfers funded of created by region, experience and platform
 df['is_funded'] = np.where(df['event_name'] == 'Transfer Funded', 1, 0)
 df['is_created'] = np.where(df['event_name'] == 'Transfer Created', 1, 0)
 
