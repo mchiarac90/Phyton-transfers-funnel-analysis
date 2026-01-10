@@ -20,7 +20,7 @@ funded_count = funnel_counts.get('Transfer Funded', 0)
 transferred_count = funnel_counts.get('Transfer Transferred', 0)
 
 
-#percentage of transfers going to following stage
+#percentage of transfers going to following step
 perc_funded_to_created = (funded_count / created_count * 100) if created_count > 0 else 0
 perc_transferred_to_funded = (transferred_count / funded_count * 100) if funded_count > 0 else 0
 
