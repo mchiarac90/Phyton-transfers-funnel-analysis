@@ -1,6 +1,6 @@
 # Goal: Analyze data on transfers conversion to identify correlations and bottlenecks
 
-import pandas as pd
+<pre><code>import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
@@ -113,4 +113,4 @@ filtered_android = df[df['platform'] == 'Android']
 distinct_users_on_android = filtered_android['user_id'].nunique()
 
 print(distinct_users_on_web)
-print(distinct_users_on_android)
+print(distinct_users_on_android</code>)</pre>
