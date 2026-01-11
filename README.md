@@ -1,7 +1,7 @@
-##  Transfers Funnel Analysis using Phyton
+###  Transfers Funnel Analysis using Phyton
 
-### This project evaluates the operational health of a transfer route.
-### The goal is to analyze the data flow to identify systemic bottlenecks.
+#### This project evaluates the operational health of a transfer route.
+#### The goal is to analyze the data flow to identify systemic bottlenecks.
 
 #### Toos: Excel, Colab
 
