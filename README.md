@@ -17,7 +17,7 @@ import seaborn as sns
 import plotly.graph_objects as go
 </code></pre>
 
-### 2. Import the excel file is in the root directory
+### 2. Import the excel file 
 <pre><code>df = pd.read_excel('funnel_data_sample.xlsx') </code></pre>
 
 ### 3. Count each unique event name to build the funnel stages
