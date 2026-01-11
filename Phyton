@@ -1,4 +1,4 @@
-### Goal: Analyze data on transfers conversion to identify correlations and bottlenecks
+# Goal: Analyze data on transfers conversion to identify correlations and bottlenecks
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,7 +13,7 @@ import plotly.express as px
 df = pd.read_excel('funnel_data_sample.xlsx')
 
 
-#count transfers reaching each funnel step
+# count transfers reaching each funnel step
 funnel_counts = df['event_name'].value_counts()
 created_count = funnel_counts.get('Transfer Created', 0)
 funded_count = funnel_counts.get('Transfer Funded', 0)
@@ -28,7 +28,7 @@ print(f"Percentage of transfers 'funded' to 'created': {perc_funded_to_created:.
 print(f"Percentage of transfers 'transferred' to 'funded': {perc_transferred_to_funded:.2f}%")
 
 
-#create funnel chart
+# create funnel chart
 funnel_steps_order = ['Transfer Created', 'Transfer Funded', 'Transfer Transferred']
 
 funnel_data_for_chart = pd.DataFrame({
