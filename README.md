@@ -6,7 +6,7 @@
 #### Toos: Excel, Colab
 
 #### Data: [Github](https://github.com/mchiarac90/Phyton-transfers-funnel-analysis/blob/main/%20funnel_data_sample.xlsx)
-#### Data Glossary:[Github]
+#### Data Glossary:[Github](https://github.com/mchiarac90/Phyton-transfers-funnel-analysis/blob/main/Glossary.png)
 
 ### 1. Import libraries
 <pre><code>
