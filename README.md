@@ -5,6 +5,9 @@
 
 #### Toos: Excel, Colab
 
+#### Data: [Github]
+#### Data Glossary:[Github]
+
 ### 1. Import libraries
 <pre><code>
 import pandas as pd
