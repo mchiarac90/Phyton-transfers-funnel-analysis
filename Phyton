@@ -113,4 +113,4 @@ filtered_android = df[df['platform'] == 'Android']
 distinct_users_on_android = filtered_android['user_id'].nunique()
 
 print(distinct_users_on_web)
-print(distinct_users_on_android</code>)</pre>
+print(distinct_users_on_android)</code></pre>
