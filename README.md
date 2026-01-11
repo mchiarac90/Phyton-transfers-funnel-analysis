@@ -75,6 +75,8 @@ funnel_data_for_chart['Percentage'] = (funnel_data_for_chart['Count'] / initial_
   
 fig.update_traces(textfont=dict(color="black", size=15, family="Arial", weight="bold")) </code></pre>
 
+#### Result: [Github](https://github.com/mchiarac90/Phyton-transfers-funnel-analysis/blob/main/Funnel%20chart.png)
+
 #### 7.6 Display the chart
 <pre><code> fig.show() </code></pre>
 
@@ -115,7 +117,7 @@ plt.ylabel('Region, Experience')
 plt.tight_layout()
 plt.show() </code></pre>
 
-
+### Result: [Github]()
 
 
 
